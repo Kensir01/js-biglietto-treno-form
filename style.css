@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+body{
+    background-color: #b91450;
+}
+
+h1{
+    color: white;
+    padding: 10px;
+}
+
+.calcolatore{
+    width: 1000px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+}
+
+
+.calcolato{
+    width: 1000px;
+    height: 250px;
+    background-color: white;
+    margin: auto;
+}
