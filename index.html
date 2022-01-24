@@ -10,8 +10,53 @@
 <body>
     
     <section>
-        <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+        <h1 class="titolo_bianco ">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
         <div class="calcolatore">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <p class="testo_viola">Nome Cognome</p>
+                    <input type="text" id="name" class="bordi_viola" placeholder="Inserire Nome">
+                </div>
+      
+
+                <div class="col">
+
+                    <p class="testo_viola">Km da percorrere</p>
+                    <input type="number" id="km" min="1" placeholder="Inserire Km" class="bordi_viola">
+
+                </div>
+
+            
+                <div class="col">
+
+                    <p class="testo_viola">Fascia d'et&agrave;</p>
+                    <select name="" id="eta" class="bordi_viola">
+                        <option value=""></option>
+                        <option value="minorenne">Minorenne</option>
+                        <option value="maggiorenne">Maggiorenne</option>
+                        <option value="senior">Over 65</option>
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="row_centrale">
+
+                <div class="col_centrale">
+                    <button class="bottone_viola">Genera</button>
+                </div>
+
+                <div class="col_centrale">
+                    <button class="bottone_viola">Annulla</button>
+                </div>
+
+            </div>
+
+            
 
 
         </div>
@@ -22,9 +67,9 @@
 
     <section>
         
-        <h1>IL TUO BIGLIETTO</h1>
+        <h1 class="titolo_bianco">IL TUO BIGLIETTO</h1>
         <div class="calcolato">
-            
+
     
         </div>
     

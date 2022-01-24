@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-align: center;
 }
 
 
@@ -10,22 +9,95 @@ body{
     background-color: #b91450;
 }
 
-h1{
+
+.titolo_bianco{
     color: white;
     padding: 10px;
+    text-align: center;
+
 }
 
+
 .calcolatore{
-    width: 1000px;
-    height: 250px;
-    background-color: white;
+    width: 70%;
     margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 25px black
 }
+
+.calcolatore .row{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.calcolatore .row .col{
+    display: flex;
+    flex-direction: column;
+}
+
+.testo_viola{
+    color: #c64071;
+    margin: 15px;
+}
+
+.bordi_viola{
+    border-radius: 5px;
+    border: 1px solid #c64071;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.row_centrale{
+    margin-top: 40px;
+}
+
+.col_centrale{
+    margin-left: 25px;
+}
+
+.calcolatore .row_centrale{
+    display: flex;
+    justify-content: center;
+}
+
+
+.calcolatore .row_centrale .col_centrale{
+    display: flex;
+    flex-direction: column;
+}
+
+.bottone_viola{
+    color: #c64071;
+    padding: 2px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.bottone_viola:active{
+    border: 1px solid yellow;
+    border-radius: 5px;
+
+}
+
+.bottone_viola:hover{
+    border: 1px solid yellow;
+    border-radius: 5px;
+
+}
+
 
 
 .calcolato{
-    width: 1000px;
-    height: 250px;
-    background-color: white;
+    width: 70%;
     margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
 }
+
+
+
