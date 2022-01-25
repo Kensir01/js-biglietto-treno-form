@@ -118,15 +118,19 @@ body{
     padding: 10px;
 }
 
-#nome_passeggero{
-    text-align: left;
+#nome-passeggero{
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 15px;
 }
 
 
 .dati_passeggeri .info{
+    text-align: center;
     height: 100px;
-    padding: 10px;
+    padding-left: 20px;
     border: 1px solid black;
     border-bottom: 1px solid black;
 }
