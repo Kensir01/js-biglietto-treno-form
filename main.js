@@ -20,12 +20,17 @@ bottone.addEventListener('click',
 
         if (fasciaEta == "minorenne") {
 
-            prezzoBiglietto -=  - (prezzoBiglietto / 100 * 20);
+            prezzoBiglietto -= (prezzoBiglietto / 100 * 20);
             offerta = "Sconto minorenni";
+
+        } else if (fasciaEta == "maggiorenne") {
+
+          prezzoBiglietto = prezzoBiglietto
+               
 
         } else if (fasciaEta == "over65") {
             
-            prezzoBiglietto -=  - (prezzoBiglietto / 100 * 40);
+            prezzoBiglietto -= (prezzoBiglietto / 100 * 40);
             offerta = "Sconto pensionati";
         } 
 
