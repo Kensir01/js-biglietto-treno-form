@@ -89,15 +89,52 @@ body{
 
 }
 
+.hidden {
+    display: none;
+}
 
-
-.calcolato{
+#calcolato{
     width: 70%;
     margin: auto;
     padding: 30px;
     background-color: white;
-    border-radius: 15px;
+}
+
+.biglietto{
+    padding: 5px 0px;
+    text-align: center;
 }
 
 
+.dati_passeggeri{
+    display: flex;
+    justify-content: center;
+}
 
+
+.dati_passeggeri .nome_clienti{
+    background-color: grey;
+    height: 100px;
+    padding: 10px;
+}
+
+#nome_passeggero{
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.dati_passeggeri .info{
+    height: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.dati_passeggeri .info td {
+    padding: 30px 0;
+}
+
+.dati_passeggeri .info th {
+    padding: 0 30px;
+}
